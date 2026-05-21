@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: rgba(241, 241, 241, 1);
+}
+nav {
+	background-color: rgba(241, 241, 241, 1);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    padding-top: 10px;
+}
+.nav {
+	display: inline-block;
+}
+.nav > p {
+	font-family: roboto;
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 11px;
+	leading-trim: NONE;
+	line-height: 100%;
+	letter-spacing: 0%;
+}
+#imageN1 {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.cont {
+	width: 1220px;
+	margin: 50px auto;
+	padding-top: 40px;
+}
+.cont > .satauri {
+	font-size: 24px;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 1);
+	margin-bottom: 27px;
+	font-family: "Roboto";
+}
+.card {
+	width: 362px;
+	height: 357px;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 5px;
+	display: inline-block;
+	margin-right: 40px;
+	position: relative;
+}
+.card > h6 {
+	position: absolute;
+	top: 32px;
+	left: 41px;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: "Roboto";
+	color: rgba(255, 255, 255, 1);
+}
+.card > img {
+	width: 362px;
+	height: 186px;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.texts {
+	padding-top: 68px;
+	padding-left: 37px;
+	color: rgba(138, 135, 135, 1);
+	font-family: "Roboto";
+	font-size: 10px;
+	font-weight: 700;
+}
+.texts > p {
+	margin-bottom: 14px;
+}
+.texts img {
+	width: 16px;
+	height: 16px;
+	margin-right: 16px;
+}
+.imgN1 {
+	width: 500px;
+	height: 300px;
+	border-radius: 5px;
+}
+#HN {
+	font-size: 30px;
+	font-family: Roboto;
+	font-weight: 800;
+	font-style: ExtraBold;
+	font-size: 24px;
+	leading-trim: NONE;
+	line-height: 100%;
+	letter-spacing: 0%;
+	margin-bottom: 30px;
+}
+.imgN2 {
+	width: 250px;
+	height: 155px;
+	border-radius: 5px;
+}
+#sec-row {
+	position: relative;
+	top: -650px;
+	right: -650px;
+}
+.site-footer {
+	position: relative;
+  	background-color: #243043;
+  	padding: 60px 40px;
+  	font-family: Arial, sans-serif;
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: flex-start;
+}
+.footer-links {
+  	display: flex;
+  	flex-direction: column;
+  	gap: 15px;
+}
+.footer-links a {
+  	color: #818687;
+  	text-decoration: none;
+  	font-size: 14px;
+}
+.footer-tagline {
+  	color: #ffffff;
+  	font-size: 14px;
+  	line-height: 1.5;
+}
+.footer-logo img {
+  	width: 45px;
+  	height: auto;
+  	padding: 4px;
+  	border-radius: 4px;
+}
